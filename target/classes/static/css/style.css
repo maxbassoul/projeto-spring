@@ -1,0 +1,29 @@
+
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: darkgreen;
+}
+.sidenav{
+    padding-top: 20px;
+    background-color: #92e6ff;
+    height: auto;
+}
+footer{
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+.row.content{
+    min-height: 450px;
+}
+@media screen and (max-width: 767px){
+    .sidenav{
+        height: auto;
+        padding: 15px;
+    }
+    .row.content{
+        height: auto;
+    }
+    
+}
